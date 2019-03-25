@@ -1,8 +1,8 @@
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea {
   display: inline;
-  max-width: 25%;
-  width: 25%;
+  max-width: 50%;
+  width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
