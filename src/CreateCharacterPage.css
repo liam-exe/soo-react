@@ -1,7 +1,16 @@
 * {
-  font-family: Calibri, sans-serif;
-}
+  font-family: Calibri, sans-serif; }
 
 Container {
-  float: left;
-}
+  float: left; }
+
+.container-bottom .instagram-logo {
+  height: 5%;
+  width: 5%;
+  transform: translateY(78%) translateX(950%); }
+.container-bottom .download-action {
+  height: 5%;
+  width: 5%;
+  transform: translateY(75%) translateX(850%); }
+
+/*# sourceMappingURL=CreateCharacterPage.css.map */

@@ -4,13 +4,17 @@ import * as CharacterTypeEnum from '../enum/CharacterEnum';
 
 function Option(props) {
   return (
-    <button>
+    <button
+      className={
+        "btn-minguri-".concat(props.colorType, "-", props.faceType)
+      }
+    >
       <img
         src={CharacterTypeEnum.getImageFromTypes(props.colorType, props.faceType)}
+        alt={"Option"}
         className={
-          "btn-".concat(props.colorType, "-", props.faceType)
+          "btn-minguri-img".concat(props.colorType, "-", props.faceType)
         }
-        alt={"adsda"}
         onClick={props.action}/>
     </button>
   );

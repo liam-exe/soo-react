@@ -1,0 +1,19 @@
+$btn-up: url('../../../../assets/btns/scroll-up-arrow.png');
+$btn-down: url('../../../../assets/btns/scroll-down-arrow.png');
+
+.btn.btn-up {
+  width: 200px;
+  height: 100px;
+
+  background: $btn-up no-repeat;
+  background-size: contain;
+}
+
+.btn.btn-down {
+  width: 200px;
+  height: 100px;
+
+  background: $btn-down no-repeat;
+  background-size: contain;
+}
+

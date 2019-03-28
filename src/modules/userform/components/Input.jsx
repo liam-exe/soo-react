@@ -1,5 +1,5 @@
 import React from "react";
-import './css/input.css';
+import './css/input.scss';
 
 const Input = props => {
   //console.log(props.value);

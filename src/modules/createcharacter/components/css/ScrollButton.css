@@ -1,0 +1,13 @@
+.btn.btn-up {
+  width: 200px;
+  height: 100px;
+  background: url("../../../../assets/btns/scroll-up-arrow.png") no-repeat;
+  background-size: contain; }
+
+.btn.btn-down {
+  width: 200px;
+  height: 100px;
+  background: url("../../../../assets/btns/scroll-down-arrow.png") no-repeat;
+  background-size: contain; }
+
+/*# sourceMappingURL=ScrollButton.css.map */

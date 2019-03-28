@@ -1,48 +1,45 @@
 export const ColorType = {
-  DEFAULT: "default",
-  RED: "red",
-  GREEN: "green",
-};
+
+    //Old
+    DEFAULT: "default",
+
+    //New
+    BEIGE_H: "beigeh",
+    BEIGE_Y: "beigey",
+
+    BLACK_H: "blackh",
+
+    GREEN_E: "greene",
+
+    GREY_E: "greye",
+    GREY_K: "greyk",
+    GREY_S: "greys",
+
+    PINK_E: "pinke",
+
+    WHITE_E: "whitee",
+    WHITE_K: "whitek",
+    WHITE_S: "whites",
+
+    YELLOW_K: "yellowk",
+  }
+;
 
 export const FaceType = {
+
+  //Old
   BLANK: "blank",
-  DRAMATIC: "dramatic",
-  SAD: "sad",
-  SURPRISED: "surprised",
+
+  //New
+  KISS: "kiss",
 
   properties: {
-    "default": { prefix: "_" },
-    "dramatic": { prefix: "_" },
-    "sad": { prefix: "_" },
-    "surprised": { prefix: "_" }
+    "blank": { prefix: "_" },
+    "kiss": { prefix: "_" }
   }
 };
 
-const BASE_PATH = "/assets/";
-
-export function getImageFromColor(colorType) {
-  let path = BASE_PATH.concat(colorType.value,
-    "/",
-    FaceType.properties.prefix,
-    FaceType.DEFAULT,
-    ".png");
-
-  console.log("Image Path: " + path);
-
-  return path;
-}
-
-export function getImageFromFace(faceType) {
-  let path = BASE_PATH.concat(ColorType.DEFAULT,
-    "/",
-    FaceType.properties.prefix,
-    faceType.value,
-    ".png");
-
-  console.log("Image Path: " + path);
-
-  return path;
-}
+const BASE_PATH = "/assets/minguri/";
 
 export function getImageFromTypes(colorType, faceType) {
   let path = BASE_PATH.concat(colorType,
@@ -50,11 +47,9 @@ export function getImageFromTypes(colorType, faceType) {
     colorType,
     "_",
     faceType,
-    ".png"
+    ".JPG"
     )
   ;
-
-  console.log("Image Path: " + path);
 
   return path;
 }
